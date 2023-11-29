@@ -1,0 +1,15 @@
+li:nth-child(1) {
+    list-style: url(images/map-marker.svg);
+}
+
+li:nth-child(2) {
+    list-style: url(images/calendar-range.svg);
+}
+
+li:nth-child(3) {
+    list-style: url(images/clock-time-three.svg);
+}
+
+li::marker {
+    height: .5em;
+}
